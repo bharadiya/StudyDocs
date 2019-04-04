@@ -1,0 +1,32 @@
+**Interview questions on API**
+
+1) How to parse a json
+2) How to parse a xml
+3) How to Insert key:value based upon some searching criteria
+4) Write code for conversion of json to xml and xml to json
+5) what do you mean by query parameter and path parameter 
+6) what is the difference between put and patch
+7) what are the validation while API automation
+8). Explain your framework(Rest Assured)
+9) what do you mean my object notation and array notation in json
+10) write code for json Read
+11) what do you mean by POJO why we use POJO
+12) what do you mean by authentication and what are the types of authentication while API testing
+13) what is the difference between URI and URL
+14) how do you store result and use further in groovy scripting
+15) what do you mean by Test runner in groovy scripting
+16) what is the Rest service architecture
+17) what is the soap service architecture
+18) what is the soap ui work hirarchy
+19) how to set and get property using groovy scripting
+20) what do you mean by jsonsluper and xmlholder 
+21) how to convert json to Hashmap 
+22) what do you mean by Data source Data Sink and Data Source loop and why do we use it 
+23) how to handle SSL in SoapUI
+24) what are the different type of properties in SoapUI how you declare using groovy scripting
+25) What is the main thing while API automation.
+26) what do you mean by Webservices and why do we use Webservices.
+27) what is the difference between soap and Rest.
+28) what do you mean by UDDI .and what do you mean by WSDL.
+29) what are the different type of HTTP Methods.
+30) how to parse a list from a json for example there is json and there are multiple IDs how you will parse all the IDs from json and how you will parse a particular I'd from that json.
