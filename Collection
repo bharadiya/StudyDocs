@@ -1,0 +1,98 @@
+//CollectionFramework API:
+//Need of Collection Framework:
+//Ans>>If we want to represent a group of individual objects as a single entity then 
+//we should go for Collection
+//Collection is not fixed in size it is growable in nature
+//Collection can hold Homogeneous/Heterogeneous data types
+//With respect to memory collection is recommended
+//Performance wise it is slower than arrays hence not recommended
+//Collection has underlying data structures & hence readymade methods are available
+//Collection can hold objects only as a value
+//Collection automatically type cast data into objects
+
+//What is Collection Framework?
+//Ans>> Collection framework is a collection of classes, Abstract classes and Interface. Where 
+//operations are written in the form of methods.
+
+//Components of Collection: Collection related interfaces are present in Java.util package
+//Collection(I)(1.2v)
+//1)List(I)
+//2)Set(I)(1.2v)
+//3)Queue(I)(1.5v)
+
+//1)List(I): If we want to represent a group of individual objects as a single entity where 
+//duplicates are allowed & insertion order is preserved then we go for List interface
+
+//Implementation classes of List(I):
+//a)ArrayList(C)(1.2): backend data structure is array, variable in size, duplicates allowed, 
+//Insertion order is preserved,random access is possible,Null insertion also possible,Heterogeneous
+//It is not recommended when frequent operations are Insertion & Deletion of data
+//it is recommended when frequent operations are reading data
+
+//b)LinkedList(C)(1.2):
+//It is based on Doubly Linked List backend data structure
+
+//c)Vector(C)(1.0)(Legacy Class): Array, Synchronized>>Stack:Class, Stack
+//Stack(C)(1.0)(Legacy Class):
+
+//2)Set(I): It is child Interface of Collection(I)
+//If we want represent a group of individual objects as a single entity where duplicates are not 
+//allowed & insertion order is not preserved then we go for Set(I)
+
+//a)HashSet(C)(1.2):HashTable
+//It sorts Data in Natural Sorting Order
+//It is Heterogeneous in nature
+//It doesn't preserved insertion order
+//It is variable in size
+//backend data structure is HashTable
+//Random access is not possible
+//Null insertion is possible
+   
+//i)LinkedHashSet(C)(1.4):
+   //It preserved insertion order
+   //It uses backend data structure as Doubly Linked List & Hash Table
+   //Null insertion is possible
+   //It doesn't sort the data even if the data is of same type
+//b)SortedSet(I)(1.2):
+   //i)NavigableSet(I)(1.6):
+   
+   //ii)TreeSet(C)(1.2):
+   //Sorts in natural sorting order
+   //It is Homogeneous in nature
+   //Insertion order is not preserved
+   //It uses backend data structure Balanced Tree
+   
+**Cursors in Collection:
+1)Iterator:
+a)Iterator is used to iterate data elements in collection 
+b)Iterator can iterate data elements in an collection in forward Direction only
+c)There some methods of Iterator which are hasNext() and next()
+d)hasNext():This method is used to returns true if there is elements in collection
+e)next():This method is used to represents data elements from collection in the form of objects 
+d)remove()
+
+2)ListIterator:
+a)Listiterator is used to iterate data elements in collection 
+b)Listiterator can iterate data elements in an collection in forward and reverse direction
+c)There some methods of Listiterator which are hasNext() and next() hasPrevious(),nextIndex(),
+previousIndex(),remove()
+
+3)Enumeration:
+a)this is a type of iterator which is used to iterate over legacy classes of collection
+b)Methods in Enumeration
+i)elements():This method is used to create Enumeration instance
+ii)hasMoreElements():This method will check whether collection has more elements in it
+ii)nextElement():this method will fetch the element from collection 
+iv)Enumeration can only be used to fetch elements from collection.We cannot remove element
+using Enumeration. 
+
+Diffrenece between Iterator, Listiterator,Enumeration?
+ Enumeration                 |       iterator              |  Listiterator 
+1)Introduce in v1.0 of java  |1)Introduce in v1.2 of java  |1)introduce in v1.2 of java
+2)Instance of Enumeration can|2)instance created using     |2)instance created using                             
+be created using elements()  |iterator() method            |Listiterator() method 
+method                       |                             |
+3)it can iterate over vector |3)it can iterate over any    |3)it can iterate only Listiterator
+and stack                    |collection                   |
+4)read in forward direction  |4)read in forward direction  |4)read in forward nd reverse direction 
+                             | 

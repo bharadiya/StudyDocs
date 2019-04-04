@@ -1,0 +1,23 @@
+String: string Objects are immutable in nature becoz it does'nt allow to change in existing object
+String only print Akshay becoz it is not mutable in nature
+string is secure
+
+String Buffer:
+//String buffer will print Ram Sawai becoz sb is mutable
+//objects of String buffer is Synchronized becoz at a time it focus on only one thread
+//It is synchronized becoz all the methods have keyword synchronized
+//if there is multithreaded environment in our programme then we must use SB 
+//objects of string buffer is thread safe		
+//performance wise it is slow	
+//initial capacity of SB is 16 characters		
+
+String Builder:
+//String buffer will print Ram Sawai becoz string builder is mutable in nature
+//objects of String Builder is not synchronized becoz at a time it focus on multiple threads
+//It is non synchronized becoz none of the method of string builder is synchronized
+//objects of String Builder is not thread safe
+//performance wise it is fast
+
+Note:
+1)string s="Akshay"; here in this case akshay will save in string constant pool
+2)string s=new string("Akshay");here in this case akshay will save in Heap

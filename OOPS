@@ -1,0 +1,43 @@
+//Features of OOPs:
+//1. Encapsulation: Binding of methods or variables in a single entity is called Encapsulation
+//Encapsulation is achieved using Class, Interface nd Abstract classes
+//Benefits: a)With the help of this feature we can achieve modularity
+//b)With the help of this feature we can restrict access, no one can use any method of our class 
+//c)we can restrict variables life
+
+//2.Polymorphism:(Poly=Multiple, Morphs=forms)
+//Polymorphism is belongs to Methods only
+//Two methods have same name but multiple forms(Ex.Avinash is Tester nd teacher here role is change only)
+
+//Polymorphism is achieved using two methods
+//Using Method Overloading:
+//a)In this method Method name should be same but list of argument must be different
+//b)Method overloading should perform in a same class
+//c)In overloading access specifier nd return type are not check by JVM they can be different
+//d)In method overloading method signature should be different
+
+//Using Method Overriding:
+//a)Entire method syntax should be same
+//b)Method Overriding should perform in different classes but there must also be parent-child relationship
+//c)in method overriding method signature should be exactly same
+
+//3.Inheritance(Is-a-Relationship):
+//Defination:Increasing the features of child with the features of parent class
+//Or passing the features of parents to its child's is inheritance
+//For Ex. by default we get the property of our parent to us nd it adding to our property also
+//Private members can not be inherited in child class
+//object class is a parent of each and every class in java
+//Inheritance is runtime phenomena while overriding
+
+//How to achieve Inheritance?
+//We can achieve Inheritance using "extend" keyword
+
+//Types of Inheritance:
+//1.Simple Inheritance
+//2.Multilevel Inheritance
+//3.Multiple Inheritance(Not allowed in Java hence Java is not 100% object oriented)
+//Ex.class A extends class B, class C not allowed here
+//Means two parents and single child
+//We can achieve Multiple inheritance but it is partially possible using some method
+//4.Hierarchical Inheritance
+//5.hybrid inheritance

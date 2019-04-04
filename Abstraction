@@ -1,0 +1,28 @@
+//Definition:It is a way through which we will allow to have multiple implementation of same feature
+//We can achieve abstraction by using abstract class and Interface
+
+//1.Using Abstract Class:
+//In Abstraction we can have both abstract and concrete methods
+//Abstract class can have zero or more than zero methods 
+//Abstract class can have all methods as abstract
+//Abstract class can have all methods as concrete
+//Abstract methods can not be Final becoz we can not change it as per our need 
+//Abstract methods should have modifiers public or protected only
+//Abstract methods should not be Static becoz it will create only one copy so we can't use for more
+//we have to write abstract keyword for abstract methods
+//We can write instance variable in abstract class
+//We can write concrete method in abstract class
+//we can also write local variable in concrete method
+//We can't write abstract keyword to variables
+//We can write abstract keyword to method but we can't give a body to it
+//for concrete method we can't write abstract keyword
+
+//2.Using Interface:
+//Interface is used to achieve 100% abstraction upto Java version 1.9
+//In interface we just have abstract method only
+//in Interface by default all methods are abstract
+//We can't write concrete method in interface
+//We can write concrete method in Java 10 version 
+//We can't create instance of Interface
+//All methods should be public or protected 
+'

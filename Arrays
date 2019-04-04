@@ -1,0 +1,35 @@
+//int[] a=new int[5];:>>new keyword is responsible allocating memory for object in RAM.
+//int[] a=new [5]int;:>>We can't write like this it is wrong 
+//int i=5;
+//int[] a=new int[i]; it is allowed we can refer the variable where we store any value
+//What is Array?
+//Array is a sequence of elements of same type(i.e. int, char, float)
+//Arrays are identified by single name Ex.int a[]={1,2,3,4}>>a is a single name 
+//Arrays index starts from '0'
+//Last element index of array is Length-1
+//Arrays are fixed in size means we can't change the size of array at runtime  
+//Arrays are objects in Java
+//We can declare Array as Ex. int[] a;
+//Multiple Arrays on single line is allowed Ex. int[] a,b;
+//Ex.int []a,b;>>>Here a: it is Array, b: it is variable becoz there is no symbol attach to it
+//Ex. int a,[]b;>>it is not allowed becoz in array after comma JVM expect variable name
+
+//Possible Declaration of Arrays?
+//int[] a;
+//int []a;
+//int a[];
+
+//What is Multidimensional Array?
+//It is seen in Tree structure
+//Syntax>>int[][] a=new [4][3]; this is how we write 2-D Array
+
+//Valid Declaration for 2-D Array?
+//int[][] a=new int[4][3];
+//int [][]a=new int[4][3];
+//int a[][]=new int[4][3];
+//int []a[]=new int[4][3];
+//int[][] a,b>>a:2, b:2
+//int[] []a,b>>a:2, b:1 dimensional Array
+//int[] []a[],b[]>>a:3, b:2
+//int[][]b=new [4][];  this is allowed
+//int[][]b=new [][4];this is not allowed becoz no dimension is found

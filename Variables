@@ -1,0 +1,24 @@
+//What is variable?
+//The something which has ability to varry
+//variables are logical names nd they don't have any programming meaning
+//int i=10; here int>>is data type, i>>variable name, 10>>Literal/constant
+//Syntax>><data type> <variable name>=<Literal/constant>
+//variable is name given to a certain memory locations.
+//In variable we are going to save a hexadecimal values inside it.
+//We can't write variable without data type(i.e.int float )
+
+//Declaration:Declaring to the JVM that particular variable going to hold any value Ex.int i;
+//Definition:Ex.int i=10;
+//Single line Declaration nd Definition also allowed in Java Ex. int i=10;
+//We can write multiple variables on single line  Ex. int i=10,j=20,k=30; no need to write
+//Separate int to all variables becoz java can resolved it automatically
+
+//Naming conventions of Variables?
+//Variable name should not be same as Java Reserve keywords(byte,int,short,float,class,public...52 to 53 others)
+//Variable name should not start with number Ex.int 01i=10; it will show error
+//There should not be any special type character except ($ & _) Ex. int $i=10,int _i=10;
+//Variable should follow camel case naming convention i.e. 1st char of 1st word is small nd successor 1st char of 2nd word is capital Ex.int firstData=10; 
+//Single quotes('') are reserved for characters
+//Double quotes("") are reserved for Strings
+
+

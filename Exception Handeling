@@ -1,0 +1,38 @@
+What is Exception?
+Exceptions are objects thrown to the JVM
+Every exception is comes at Runtime
+
+There are two types of Exceptions
+1)Checked Exception: The exceptions which are checked by the compiler are called as checked exception 
+It contains I/O exception,class not found,SQL,NoSuchMethod exceptions
+2)Unchecked Exception: The exceptions which are not checked by the compiler are called as Unchecked exception
+It contains Runtime exceptions such as Arithmetic,ArrayIndexOutOfBound,Class cast,NullPointer,NumberFormat Exceptions
+
+Exception Handling?
+We can handle exception using following two methods
+1)try-catch-finally block
+2)throw keyword
+
+Difference between catch and finally block?
+ Catch: catch block will execute when Exception occurs
+ Finally: finally block will surely execute regardless of Exception
+ wrap up code will be written inside finally block
+ 
+ We cannot have multiple try block to single try block
+ We can have multiple catch blocks in try block but can't have multiple finally block
+
+Throw Keyword:
+//throw is used to throw exception object explicitly to the JVM 
+//If we want throw a exception explicitly based on some condition then we have to use "throw keyword"
+//throw keyword is write inside a method
+
+Throws Keyword:
+//with the help of "throws keyword" we can propagate the exception which can occur in our programme
+//throws keyword should be write at method level mention in above example
+
+//Customized exception:
+//The exception which is developed/designed by programmer is called as customized exception
+
+//how to create customised exception
+//1. create a class with customised exception name
+//2. extend your exception class with Exception class of java or Throwable class of java
