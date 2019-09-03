@@ -1,0 +1,24 @@
+Questions asked by INFOSYS..
+
+1>  Expain about yourself.
+2>  What is DDF?
+3>  Which annotation use to get data from testcase? Writedown code for that?
+4>  How to find broken link,For that which attribute use?
+5>  How to convert simple project to maven project?
+6>  What are OOPS concepts?
+7>  What is constructor?
+8>  can we overload constructor?
+    can we overrried constructor?
+9>  what is static?
+10> difference between throw And throws keyword?
+11> What is sessionID?
+12> Different commands of maven?
+13> Write code of reading excelsheet?
+14> What is this keyword?  What is super keyword?
+15> Difference between overloading and overriding?
+16> tell about different locators?
+17> Difference between CSS And Xpath?
+18> What is POM Expained briefly?
+19> Explain HOOks and Tags in cucumber?
+20> what is regression testing?
+21> If you have 20 testcases,you want to execute only 15 then how will you execute?
